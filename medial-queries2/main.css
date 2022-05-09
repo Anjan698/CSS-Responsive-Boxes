@@ -1,3 +1,101 @@
-body {
-  background: papayawhip;
-}
+ @media screen and (max-width: 550px){
+   body{
+     background-color: cadetblue;
+   }
+     .a{
+       display: flex;
+       background:indianred;
+       width: 550px;
+       height: 90px;
+       }
+     .b{
+      display: flex; 
+      background-color: indianred;
+       width:550px;
+       height: 350px;
+      
+       transform: translate(0px,20px);
+     }
+       .c{
+        display: flex;
+        background-color:indianred;
+        width:150px;
+        height:150px;
+        
+        transform: translate(0px,70px);
+      }
+      .d{
+        display: flex;
+        background-color:indianred;
+        width:150px;
+        height:150px;
+           transform: translate(170px,-80px);
+      }
+    .e{
+        display: flex;
+        background-color: indianred;
+        width:150px;
+        height:150px;
+         transform: translate(350px,-230px);
+                }
+     .f{
+        display: flex;
+        background-color: indianred;
+        width:550px;
+        height:90px;
+       
+        transform: translate(0px,-150px);
+     }
+    }
+
+
+    @media screen and (min-width: 850px){
+  body{
+    background-color: cadetblue;
+  }
+      .a{
+        display: flex;
+        background-color: indianred;
+        height: 90px;
+        width: 1500px;
+        
+      }
+      .b{
+        background-color: indianred;
+        display: flex;
+        height: 550px;
+        width:850px;
+        transform: translate(0px,20px);
+      }
+      .f{
+        background-color: indianred;
+        display: flex;
+        height:830px;
+        width:450px;
+        transform: translate(950px,-1280px);
+      }
+        .c{
+          background-color: indianred;
+          display: flex;
+          width: 250px;
+          height: 250px;
+          transform: translate(0px,50px);
+        }
+        
+
+        .d{
+          background-color: indianred;
+          display: flex;
+          width: 250px;
+          height: 250px;
+          transform: translate(300px,-200px);
+        }
+        .e{
+          background-color: indianred;
+          display: flex;
+          width: 250px;
+          height: 250px;
+          transform: translate(600px,-450px);
+                 }
+      }
+  

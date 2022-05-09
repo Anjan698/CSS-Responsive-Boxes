@@ -1,3 +1,61 @@
-body {
-  background: blanchedalmond;
+@media screen and (min-width:450px) {
+  .flexbox-container{
+   
+    background-color: rgb(252, 255, 254);
+      }
 }
+.flexbox-item{
+  display: flex;
+  margin:10px;
+  background-color: aqua;
+  align-content:flex-end;
+ }
+
+.flexbox-item-a{
+ height: 150px;
+ width: 100%;
+}
+.flexbox-item-b{
+   height: 550px;
+    width: 75%;
+    padding-left: -30px;
+    
+}
+
+.flexbox-item-c{
+  display: flex;
+  height: 550px;
+  width: 20%;
+  position: absolute;
+  right: -5px;
+  bottom: -25px;
+
+}
+
+@media screen and (max-width: 1200px){
+  .flexbox-item{
+    margin:10px;
+    border: 53px, solid,rgb(226, 4, 4);
+    background-color: rgb(230, 241, 241);
+  }
+  
+  .flexbox-item-a{
+   height: 50px;
+   width: 100%;
+   
+  }
+  .flexbox-item-b{
+   
+      height: 550px;
+      width: 100%;
+  }
+  
+  .flexbox-item-c{
+   height:50px;
+   width: 100%;
+   
+   
+  }
+  
+}
+  
